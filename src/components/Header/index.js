@@ -1,4 +1,5 @@
 import React from 'react';
+import { MotiView, MotiText} from 'moti';
 import {
     View,
     StyleSheet,
@@ -8,21 +9,23 @@ import {
     Image,
 } from 'react-native';
 
+import AntDesign from 'react-native-vector-icons/AntDesign';
+AntDesign.loadFont().then();
+
+
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
 export default function Header({ name }){
     return(
         <View style={styles.conteiner}>
+
             <View style={styles.content}>
                 <Text style={styles.username}>{name}</Text>
-                
                 <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
-                    <Image 
-                        source={require("../../icons/user1.png")}
-                        style={{ height:40, width:40, }}
-                    />
+                    <AntDesign name="user" size={30} color="#000" />
                 </TouchableOpacity>
             </View>
+        
         </View>
     );    
 }

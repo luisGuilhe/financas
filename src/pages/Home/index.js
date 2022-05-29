@@ -61,7 +61,7 @@ const list = [
         date:"15/05/2022",
         type:0
     },
-];
+]; 
 
 
 export default function Home(){
@@ -71,7 +71,7 @@ export default function Home(){
         
         <Balance saldo="10.800,00" gastos="-2.950,00"/>
 
-        {/* <Actions /> */}
+        <Actions />
 
         <Text style={styles.title}> Últimas Movitações</Text>
 

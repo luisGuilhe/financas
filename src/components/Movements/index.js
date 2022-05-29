@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         marginBottom:8,
     },
     date:{
-        color:"#DADADA",
+        color:"#A9A9A9",
         fontWeight:"bold"
     },
     label:{

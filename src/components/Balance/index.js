@@ -40,14 +40,14 @@ const styles = StyleSheet.create({
     },
     itemTitle:{
         fontSize:20,
-        color:"#DADADA"
+        color:"#A9A9A9"
     },
     content:{
         flexDirection:"row",
         alignItems:"center"
     },
     currencySymbol:{
-        color:"#DADADA",
+        color:"#A9A9A9",
         marginRight:6
     },
     balance:{
