@@ -1,3 +1,3 @@
 # financas
 
-APP para controle de finanas. desenvolido em react-native
+APP para controle de finanas. desenvolvido em react-native
